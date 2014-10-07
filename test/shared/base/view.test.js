@@ -18,6 +18,7 @@ describe('BaseView', function() {
     this.app = {modelUtils: modelUtils};
   });
 
+  /*********** move to client/base_view.test.js *************/
   it("should return correct views by name", function() {
     var anotherBottomView, bottomView, childViews, topView;
 
@@ -230,6 +231,16 @@ describe('BaseView', function() {
       this.topView._fetchLazyCallback(null, {});
       this.topView.render.should.have.been.called;
     });
+  });
+  /***** everything above here should be moved to the client tests it would seem? *****/
+
+  describe('getView', function () {
+  });
+
+  describe('getViewOptions', function () {
+  });
+
+  describe('attach', function () {
   });
 
   describe('parseModelAndCollection', function () {

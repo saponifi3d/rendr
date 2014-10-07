@@ -18,6 +18,36 @@ describe('Base/View', function () {
     this.subject = new BaseView({ app: this.app });
   });
 
+  describe('getTemplateData', function () {
+  });
+
+  describe('decorateTemplateData', function () {
+  });
+
+  describe('getTemplateName', function () {
+  });
+
+  describe('getInnerHtml', function () {
+  });
+
+  describe('getHtml', function () {
+  });
+
+  describe('render', function () {
+  });
+
+  describe('fetchLazy', function () {
+  });
+
+  describe('_preRender', function () {
+  });
+
+  describe('_postRender', function () {
+  });
+
+  describe('setLoading', function () {
+  });
+
   describe('attachOrRender', function () {
     beforeEach(function () {
       this.$el = $('<div/>');
@@ -77,4 +107,17 @@ describe('Base/View', function () {
       });
     });
   });
+
+  describe('attach', function () {
+  });
+
+  describe('attachChildViews', function () {
+  });
+
+  describe('removeChildViews', function () {
+  });
+
+  describe('remove', function () {
+  });
+
 });
